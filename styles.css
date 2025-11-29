@@ -1,8 +1,21 @@
 /*
-
-This CSS file will be included with your plugin, and
-available in the app when your plugin is enabled.
-
-If your plugin does not need CSS, delete this file.
-
+Styles for obsidian-graphviz plugin.
 */
+
+.graphviz-diagram {
+	overflow: auto;
+	max-width: 100%;
+}
+
+.graphviz-diagram svg {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+.graphviz-error {
+	color: var(--text-error);
+	font-family: var(--font-monospace);
+	font-size: var(--font-small);
+	padding: 0.5em;
+}
